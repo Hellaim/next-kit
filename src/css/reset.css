@@ -8,10 +8,6 @@
 
 html,
 body {
-  height: 100%;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: sans-serif;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
 }
@@ -40,9 +36,4 @@ a {
 button {
   border: none;
   cursor: pointer;
-}
-
-ul,
-ol {
-  list-style: none;
 }
