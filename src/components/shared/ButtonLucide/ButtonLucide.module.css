@@ -1,0 +1,30 @@
+.button {
+  color: var(--body-text-color);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background: var(--color-neutral-light);
+}
+
+.button:hover {
+  background: var(--color-neutral);
+}
+
+a.link {
+  color: var(--body-text-color);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background: var(--color-neutral-light);
+  margin-bottom: 0;
+  transition: none;
+}
+
+a.link:hover {
+  background: var(--color-neutral);
+}
+
+.button,
+.link {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}

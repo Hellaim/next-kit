@@ -1,0 +1,6 @@
+.inner {
+  min-height: 100dvh;
+  padding: 1rem 1.5rem;
+  border-left: var(--border-dashed);
+  border-right: var(--border-dashed);
+}

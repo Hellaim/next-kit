@@ -1,0 +1,15 @@
+.footer {
+  border-top: var(--border-dashed);
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-left: var(--border-dashed);
+  border-right: var(--border-dashed);
+}
+
+.inner div {
+  font-size: 0.9rem;
+}

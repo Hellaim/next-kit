@@ -1,0 +1,28 @@
+:root {
+  font-size: 16px;
+  --body-bg-color: hsl(0, 0%, 100%);
+  --body-text-color: hsl(0, 0%, 0%);
+  --color-accent: hsl(0, 100%, 50%);
+  --color-accent-hover: hsl(0, 100%, 75%);
+  --color-neutral: hsl(0, 0%, 90%);
+  --color-neutral-light: hsl(0, 0%, 95%);
+  --color-neutral-medium: hsl(0, 0%, 80%);
+  --active-nav-link: hsl(0, 100%, 50%);
+
+  --border-dashed: 1px dashed var(--color-neutral);
+
+  --transition: 0.35s;
+
+  /* Grid */
+  --container-width: 96rem; /* 1536px */
+}
+
+html.dark {
+  --body-bg-color: hsl(0, 0%, 0%);
+  --body-text-color: hsl(0, 0%, 90%);
+  --color-accent: hsl(0, 100%, 50%);
+  --color-neutral: hsl(0, 0%, 10%);
+  --color-neutral-light: hsl(0, 0%, 7%);
+  --color-neutral-medium: hsl(0, 0%, 20%);
+  --active-nav-link: hsl(0, 100%, 50%);
+}

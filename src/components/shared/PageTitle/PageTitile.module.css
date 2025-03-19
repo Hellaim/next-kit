@@ -1,0 +1,10 @@
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+  background: var(--color-neutral-light);
+  padding: 1rem 1.5rem;
+  margin: -1rem -1.5rem 1rem -1.5rem;
+}

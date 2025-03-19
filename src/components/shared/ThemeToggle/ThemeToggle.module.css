@@ -1,0 +1,11 @@
+.button {
+  color: var(--body-text-color);
+  background: transparent;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background: var(--color-neutral-light);
+}
+
+.button:hover {
+  background: var(--color-neutral);
+}

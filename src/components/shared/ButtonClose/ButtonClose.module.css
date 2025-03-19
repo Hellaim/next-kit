@@ -1,0 +1,12 @@
+.close {
+  color: var(--body-text-color);
+  background: transparent;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  transition: var(--transition);
+}
+
+.close:hover {
+  background: var(--color-neutral-light);
+}
