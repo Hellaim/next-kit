@@ -9,6 +9,8 @@
   align-items: center;
   justify-content: center;
   min-height: 100dvh;
+  max-width: 100vw;
+  overflow: auto;
   border-bottom: var(--border-dashed);
   background: var(--body-bg-color);
   transform: translateY(-100%);
@@ -34,6 +36,10 @@
   width: 4rem;
   transform: translateX(100%);
   border-bottom: var(--border-dashed);
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 .inner::before {
@@ -44,6 +50,10 @@
   width: 4rem;
   transform: translateX(-100%);
   border-bottom: var(--border-dashed);
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 .nav {
@@ -100,11 +110,6 @@ a.active:hover {
 
 @keyframes wrapper-hide {
   0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  99% {
-    opacity: 0;
     transform: translateY(0);
   }
   100% {
