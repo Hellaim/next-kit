@@ -29,7 +29,7 @@ export function Header({ className, ref, ...props }: HeaderProps) {
           <ThemeToggle />
           <ButtonLucide
             variant="link"
-            href="http://vk.com"
+            href="https://github.com/Hellaim/next-kit"
             target="_blank"
             icon="Github"
             size={20}
