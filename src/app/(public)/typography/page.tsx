@@ -5,7 +5,10 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Типографика',
   description: 'Пример текстовой страницы для тестирования типографики',
+  other: { 'Cache-Control': 'public, max-age=3600, stale-while-revalidate=60' },
 }
+
+export const revalidate = 3600
 
 export default function TextPage() {
   return (

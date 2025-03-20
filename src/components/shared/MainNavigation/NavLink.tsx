@@ -8,12 +8,14 @@ interface NavLinkProps extends LinkProps {
   activeClassName?: string
   className?: string
   children: React.ReactNode
+  prefeth?: boolean
 }
 
 export function NavLink({
   activeClassName = 'active',
   className,
   children,
+  prefetch = false,
   ...props
 }: NavLinkProps) {
   const pathname = usePathname()
@@ -21,7 +23,11 @@ export function NavLink({
   const isActive = pathname === props.href
 
   return (
-    <Link {...props} className={clsx(className, isActive && activeClassName)}>
+    <Link
+      {...props}
+      className={clsx(className, isActive && activeClassName)}
+      prefetch={prefetch}
+    >
       {children}
     </Link>
   )

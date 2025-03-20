@@ -1,0 +1,27 @@
+.container {
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon {
+  color: var(--color-accent);
+  animation: icon-spin 2s infinite linear;
+  margin-bottom: 0.4rem;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+@keyframes icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

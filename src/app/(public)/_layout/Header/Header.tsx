@@ -8,6 +8,7 @@ import {
   AppConfigMenu,
 } from '@/components/shared'
 import Link from 'next/link'
+import { NavList } from '@/components/shared/MainNavigation/NavList'
 
 interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string

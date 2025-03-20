@@ -35,6 +35,7 @@ export function NavList({ onClick }: NavListProps) {
             className={s.link}
             activeClassName={s.active}
             onClick={onClick}
+            prefetch={true}
           >
             Типографика
           </NavLink>
