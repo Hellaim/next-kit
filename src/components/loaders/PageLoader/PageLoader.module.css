@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.icon {
+  color: var(--color-accent);
+  animation: icon-spin 2s infinite linear;
+}
+
+@keyframes icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
