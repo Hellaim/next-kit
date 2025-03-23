@@ -6,6 +6,9 @@
   right: 0;
   z-index: 2;
   backdrop-filter: blur(2rem);
+  @media (min-width: 600px) {
+    padding: 0 2.5rem;
+  }
 }
 
 .inner {

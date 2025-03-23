@@ -1,5 +1,8 @@
 .footer {
   border-top: var(--border-dashed);
+  @media (min-width: 600px) {
+    padding: 0 2.5rem;
+  }
 }
 
 .inner {
